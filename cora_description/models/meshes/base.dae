@@ -2,16 +2,10 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset>
     <contributor>
-      <author/>
       <authoring_tool>FBX COLLADA exporter</authoring_tool>
-      <comments/>
     </contributor>
     <created>2020-10-12T19:40:54Z</created>
-    <keywords/>
     <modified>2020-10-12T19:40:54Z</modified>
-    <revision/>
-    <subject/>
-    <title/>
     <unit meter="0.10000" name="decimeter"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -5066,7 +5060,7 @@
 -55.751754 -1.544993 -8.125108
 -55.103030 -2.773868 -8.170021
 -58.599398 -5.067096 -8.226830
-</float_array>
+          </float_array>
           <technique_common>
             <accessor source="#Hull-POSITION-array" count="4991" stride="3">
               <param name="X" type="float"/>
@@ -31609,7 +31603,7 @@
 0.000000 -0.000000 1.000000
 0.000001 -0.000000 1.000000
 -0.000002 0.005754 0.999983
-</float_array>
+          </float_array>
           <technique_common>
             <accessor source="#Hull-Normal0-array" count="26532" stride="3">
               <param name="X" type="float"/>
@@ -35301,7 +35295,7 @@
 0.217788 0.699184
 0.215229 0.699191
 0.215564 0.696754
-</float_array>
+          </float_array>
           <technique_common>
             <accessor source="#Hull-UV0-array" count="3681" stride="2">
               <param name="S" type="float"/>
