@@ -214,7 +214,7 @@ Visualization Manager:
           Value: true
       Name: RobotModel
       Robot Description: cora/robot_description
-      TF Prefix: cora
+      # TF Prefix: cora
       Update Interval: 0
       Value: true
       Visual Enabled: true
@@ -223,47 +223,47 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        cora/base_link:
+        base_link:
           Value: true
-        cora/dummy_link:
+        dummy_link:
           Value: true
-        cora/front_left_camera_link:
+        front_left_camera_link:
           Value: true
-        cora/front_left_camera_link_optical:
+        front_left_camera_link_optical:
           Value: true
-        cora/front_left_camera_post_arm_link:
+        front_left_camera_post_arm_link:
           Value: true
-        cora/front_left_camera_post_link:
+        front_left_camera_post_link:
           Value: true
-        cora/front_lidar_link:
+        front_lidar_link:
           Value: true
-        cora/front_lidar_post_arm_link:
+        front_lidar_post_arm_link:
           Value: true
-        cora/front_lidar_post_link:
+        front_lidar_post_link:
           Value: true
-        cora/front_right_camera_link:
+        front_right_camera_link:
           Value: true
-        cora/front_right_camera_link_optical:
+        front_right_camera_link_optical:
           Value: true
-        cora/front_right_camera_post_arm_link:
+        front_right_camera_post_arm_link:
           Value: true
-        cora/front_right_camera_post_link:
+        front_right_camera_post_link:
           Value: true
-        cora/gps_link:
+        gps_link:
           Value: true
-        cora/imu_link:
+        imu_link:
           Value: true
-        cora/left_engine_link:
+        left_engine_link:
           Value: true
-        cora/left_propeller_link:
+        left_propeller_link:
           Value: true
-        cora/odom:
+        odom:
           Value: true
-        cora/pinger:
+        pinger:
           Value: true
-        cora/right_engine_link:
+        right_engine_link:
           Value: true
-        cora/right_propeller_link:
+        right_propeller_link:
           Value: true
         utm:
           Value: true
@@ -311,7 +311,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: cora/base_link
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
